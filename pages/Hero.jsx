@@ -193,7 +193,7 @@ export default function BibleApp() {
 
         {/* Bible Tab */}
         {activeTab === "bible" && (
-          <section className={`min-h-screen flex flex-col justify-center items-center text-center px-6 ${darkMode ? "bg-gradient-to-r from-gray-800 via-gray-900 to-black text-gray-100" : "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white"}`}>
+          <section className={`min-h-screen px-6 py-12 ${darkMode ? "bg-gradient-to-r from-gray-800 via-gray-900 to-black" : "bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"}`}>
             <h1 className="text-4xl font-bold mb-6 text-center text-indigo-700 dark:text-indigo-300">Bible Reader</h1>
 
             {/* Input Controls */}
